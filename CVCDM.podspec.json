@@ -1,0 +1,19 @@
+{
+  "name": "CVCDM",
+  "version": "1.0",
+  "license": "BSD",
+  "summary": "The CDM implements methods and callbacks that are compliant with Common Encryption (CENC) standards.",
+  "homepage": "https://github.com/mikeshep/CDM",
+  "authors": {
+    "Google Company": "widevine"
+  },
+  "source": {
+    "git": "https://github.com/mikeshep/CDM.git",
+    "tag": "1.0"
+  },
+  "source_files": "{cdm}/**/*.{cc,framework}",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}
